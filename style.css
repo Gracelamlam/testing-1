@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Titan One', sans-serif;
+  line-height: 1.25;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* nav section */
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  text-transform: uppercase;
+  background: #FFCCBC;
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav p {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0;
+}
+
+.nav ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+/* header section */
+.header {
+  height: 700px;
+  background-image: url(images/bg-header.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.header h1 {
+  font-size: 80px;
+  color: #FFCCBC;
+}
+
+.header span {
+  display: block;
+  color: #0B4141;
+}
+
+/* about-1 section */
+.about-1 {
+  color: #0B4141;
+  background-image: url(images/bg-about.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 100px 0 150px;
+}
+
+.about-1 h2 {
+  font-size: 80px;
+  margin-bottom: 24px;
+}
+
+.about-1 p {
+  font-size: 20px;
+}
+
+/* about-2 section */
+.about-2 {
+  background-color: #0B4141;
+  color: #FFCCBC;
+  padding: 100px 0;
+}
+
+.about-2 .left {
+  display: inline-block;
+  width: 40%;
+  vertical-align: middle;
+}
+
+.about-2 .right {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.about-2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* about-3 section */
+.about-3 img {
+  padding: 40px;
+}
+
+.top-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+/* footer section */
+.footer {
+  background-image: url(images/bg-section.jpg);
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.footer h1 {
+  font-size: 48px;
+}
+
+.footer a {
+  display: inline-block;
+  background: green;
+  padding: 15px 30px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .5s ease;
+}
+
+.footer a:hover {
+  background: red;
+  transform: scale(1.5);
+}
